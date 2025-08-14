@@ -1,0 +1,707 @@
+section .hero-text {
+  margin-top: -450px;
+  text-align: center;
+}
+section .hero-text h2 {
+  color: #fff;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+section .hero-text h1 {
+  color: #fff000;
+  font-size: 80px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+section .hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .taxi-items {
+  background: #fff000;
+  margin-top: -150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+section .taxi-icons {
+  display: flex;
+}
+section .taxi-icons img {
+  margin-top: 120px;
+  display: block;
+  text-align: center;
+  width: 120px;
+  margin-right: 50px;
+  transition: all 0.4s;
+}
+section .taxi-icons img:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.search-bar {
+  background: #fff000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.search-bar input {
+  width: 100%;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 12px 18px;
+  border: 1px solid #ccc;
+}
+
+.search-btn {
+  background: #fff000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.search-btn button {
+  background: #8b0000;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  font-size: 19px;
+  width: 120px;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  transition: all 0.4s;
+}
+.search-btn button:hover {
+  background: lightyellow;
+  color: #8b0000;
+}
+
+section .blog {
+  margin-bottom: 90px;
+}
+section .blog .heading {
+  text-align: center;
+  margin: 20px 0;
+}
+section .blog .heading h4 {
+  color: #ffc61a;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+section .blog .heading h1 {
+  font-size: 48px;
+  font-family: sans-serif;
+}
+section .blog .blogs {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+section .blog .blogs .first-blog {
+  text-align: center;
+  width: 250px;
+  height: 230px;
+  border-right-style: dotted;
+  border-right-color: #ddd;
+  border-right-width: 2px;
+}
+section .blog .blogs .first-blog img {
+  width: 100px;
+  padding: 20px 10px;
+  transition: all 0.4s;
+}
+section .blog .blogs .first-blog img:hover {
+  transform: scale(1.1);
+}
+section .blog .blogs .first-blog h3 {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: 0.6rem;
+}
+section .blog .blogs .first-blog p {
+  font-size: 14px;
+  padding: 2px 35px;
+  margin: 0 0 12px;
+}
+
+section .taxi-pricing {
+  background: #f5f5f5;
+  text-align: center;
+  margin: 0 auto;
+}
+section .taxi-pricing h4 {
+  color: #ffc61a;
+  padding-top: 10px;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+section .taxi-pricing h1 {
+  font-family: sans-serif;
+  font-size: 48px;
+}
+section .taxi-pricing .pricing-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 100px;
+  gap: 1rem;
+}
+section .taxi-pricing .pricing-board .first-price {
+  border: 2px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  height: 371.969px;
+  line-height: 150%;
+  padding: 10px 30px;
+  font-size: 14px;
+  transition: all 0.4s;
+}
+section .taxi-pricing .pricing-board .first-price:hover {
+  box-shadow: 2px 2px 5px #ccc;
+}
+section .taxi-pricing .pricing-board .first-price image {
+  height: 170px;
+  line-height: 170px;
+}
+section .taxi-pricing .pricing-board .first-price image img {
+  width: 150px;
+  vertical-align: middle;
+}
+section .taxi-pricing .pricing-board .first-price h4 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #000;
+}
+section .taxi-pricing .pricing-board .first-price p {
+  font-size: 15px;
+  padding: 20px 15px;
+}
+section .taxi-pricing .pricing-board .first-price h2 {
+  font-size: 40px;
+}
+section .taxi-pricing .pricing-board .first-price h2 span {
+  font-size: 25px;
+  font-weight: 900;
+}
+section .taxi-pricing .pricing-board .second-price {
+  border: 2px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  height: 371.969px;
+  line-height: 150%;
+  padding: 10px 30px;
+  font-size: 14px;
+  transition: all 0.4s;
+}
+section .taxi-pricing .pricing-board .second-price:hover {
+  box-shadow: 2px 2px 5px #ccc;
+}
+section .taxi-pricing .pricing-board .second-price image {
+  height: 170px;
+  line-height: 170px;
+}
+section .taxi-pricing .pricing-board .second-price image img {
+  width: 150px;
+  vertical-align: middle;
+}
+section .taxi-pricing .pricing-board .second-price h4 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #000;
+}
+section .taxi-pricing .pricing-board .second-price p {
+  font-size: 15px;
+  padding: 20px 15px;
+}
+section .taxi-pricing .pricing-board .second-price h2 {
+  font-size: 40px;
+}
+section .taxi-pricing .pricing-board .second-price h2 span {
+  font-size: 25px;
+  font-weight: 900;
+}
+section .taxi-pricing .pricing-board .third-price {
+  border: 2px solid #ffc61a;
+  background: #fff;
+  border-radius: 10px;
+  height: 371.969px;
+  line-height: 150%;
+  padding: 10px 30px;
+  font-size: 14px;
+  transition: all 0.4s;
+}
+section .taxi-pricing .pricing-board .third-price:hover {
+  box-shadow: 2px 2px 5px #ccc;
+}
+section .taxi-pricing .pricing-board .third-price image {
+  height: 170px;
+  line-height: 170px;
+}
+section .taxi-pricing .pricing-board .third-price image img {
+  width: 150px;
+  vertical-align: middle;
+}
+section .taxi-pricing .pricing-board .third-price h4 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #000;
+}
+section .taxi-pricing .pricing-board .third-price p {
+  font-size: 15px;
+  padding: 20px 15px;
+}
+section .taxi-pricing .pricing-board .third-price h2 {
+  font-size: 40px;
+}
+section .taxi-pricing .pricing-board .third-price h2 span {
+  font-size: 25px;
+  font-weight: 900;
+}
+section .taxi-pricing .pricing-board .fourth-price {
+  border: 2px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  height: 371.969px;
+  line-height: 150%;
+  padding: 10px 30px;
+  font-size: 14px;
+  transition: all 0.4s;
+}
+section .taxi-pricing .pricing-board .fourth-price:hover {
+  box-shadow: 2px 2px 5px #ccc;
+}
+section .taxi-pricing .pricing-board .fourth-price image {
+  height: 170px;
+  line-height: 170px;
+}
+section .taxi-pricing .pricing-board .fourth-price image img {
+  width: 150px;
+}
+section .taxi-pricing .pricing-board .fourth-price h4 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #000;
+}
+section .taxi-pricing .pricing-board .fourth-price p {
+  font-size: 15px;
+  padding: 20px 15px;
+}
+section .taxi-pricing .pricing-board .fourth-price h2 {
+  font-size: 40px;
+}
+section .taxi-pricing .pricing-board .fourth-price h2 span {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+section .benefits {
+  background: url(../images/background.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  padding: 10px 40px;
+}
+section .benefits h4 {
+  color: #ffc61a;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-bottom: -40px;
+  text-align: center;
+}
+section .benefits h2 {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  padding: 20px;
+  margin-top: -25px;
+  padding-bottom: 60px;
+}
+section .benefits .num-1 {
+  display: flex;
+  padding: 80px 10px;
+}
+section .benefits .num-1 h5 {
+  background-color: #ffc61a;
+  font-size: 15px;
+  clip-path: circle();
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 30px;
+}
+section .benefits .num-1 .text-1 {
+  padding: 0px 40px 0px 20px;
+}
+section .benefits .num-1 .text-1 h1 {
+  color: #ffc61a;
+  text-align: left;
+  padding-bottom: 30px;
+}
+section .benefits .num-1 .text-1 p {
+  color: #fff;
+  text-align: left;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+section .benefits .num-2 {
+  display: flex;
+  padding: 20px 10px;
+}
+section .benefits .num-2 h5 {
+  background-color: #ffc61a;
+  font-size: 15px;
+  clip-path: circle();
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 30px;
+}
+section .benefits .num-2 .text-1 {
+  line-height: 1;
+  padding: 0px 40px 0px 20px;
+}
+section .benefits .num-2 .text-1 h1 {
+  color: #ffc61a;
+  text-align: left;
+  padding-bottom: 30px;
+}
+section .benefits .num-2 .text-1 p {
+  color: #fff;
+  text-align: left;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+section .benefits .downlod-app img {
+  display: block;
+  text-align: center;
+}
+section .benefits .google {
+  margin-top: -125px;
+}
+section .num-3 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 80px 10px;
+}
+section .num-3 h5 {
+  background-color: #ffc61a;
+  font-size: 15px;
+  clip-path: circle();
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 30px;
+}
+section .num-3 .text-1 {
+  line-height: 1;
+  padding: 0px 40px 0px 20px;
+}
+section .num-3 .text-1 h1 {
+  color: #ffc61a;
+  text-align: right;
+  padding-bottom: 30px;
+}
+section .num-3 .text-1 p {
+  color: #fff;
+  text-align: right;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+section .num-4 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px 10px;
+}
+section .num-4 h5 {
+  background-color: #ffc61a;
+  font-size: 15px;
+  clip-path: circle();
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 30px;
+}
+section .num-4 .text-1 {
+  line-height: 1;
+  padding: 0px 40px 0px 20px;
+}
+section .num-4 .text-1 h1 {
+  color: #ffc61a;
+  text-align: right;
+  padding-bottom: 30px;
+}
+section .num-4 .text-1 p {
+  color: #fff;
+  text-align: right;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+section .earn {
+  display: flex;
+}
+section .earn .heading {
+  padding: 90px 0px 0px 50px;
+}
+section .earn .heading h5 {
+  color: #ffc61a;
+  line-height: 1.5;
+}
+section .earn .heading h2 {
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 38px;
+}
+section .earn .heading p {
+  line-height: 1.8;
+  font-family: cursive;
+  padding: 20px 100px 0px 0px;
+  font-size: 15px;
+}
+section .earn .heading .check-marks {
+  display: flex;
+  padding-top: 30px;
+}
+section .earn .heading .check-marks ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+section .earn .heading .check-marks ul li {
+  width: 247px;
+  margin-left: -10px;
+  list-style: none;
+  font-size: 20px;
+  font-family: cursive;
+}
+section .earn .heading .check-marks ul i {
+  color: #ffc61a;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+}
+section .earn .driver {
+  padding: 50px 0px 0px 50px;
+}
+section .earn .driver button {
+  background-color: #ffc61a;
+  padding: 15px;
+  border-radius: 50px;
+  width: 50%;
+  color: #000;
+  transition: all 0.4s;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all 0.4s;
+}
+section .earn .driver button:hover {
+  background-color: #000;
+  color: #ffc61a;
+}
+
+.side-car {
+  margin-left: 100px;
+  margin-top: 120px;
+  overflow: hidden;
+}
+.side-car img {
+  padding: 30px 0px;
+}
+
+.line {
+  background: url(../images/download.png);
+  width: 100%;
+  height: 2vh;
+}
+
+section .reviews {
+  text-align: center;
+  padding: 50px 0px;
+  background-color: #d3d3d3;
+}
+section .reviews h4 {
+  font-size: 25px;
+  color: #ffc61a;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section .reviews h1 {
+  font-size: 48px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 40px;
+}
+section .box-1 {
+  margin: 0 auto;
+  background: #f5f5f5;
+  padding: 30px 30px;
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+}
+section .box-1 p {
+  line-height: 1.5;
+  font-family: cursive;
+}
+section .box-1 .quote-icon {
+  font-size: 60px;
+  color: #d3d3d3;
+  padding: 50px 30px;
+}
+section .box-1 .clients h5 {
+  font-family: sans-serif;
+}
+section .box-1 .clients img {
+  border-radius: 200px;
+  width: 40px;
+}
+
+.arrow {
+  margin-top: 40px;
+}
+.arrow button {
+  background-color: #ffc61a;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+section .partner {
+  background: #ffc61a;
+  height: 7vh;
+  margin: 0 auto;
+  padding: 25px 50px;
+}
+section .partner h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+section .partner h2 {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 38px;
+}
+section .clients-company {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+section .clients-company img {
+  padding: 10px 50px;
+}
+
+footer .main-footer {
+  background: #161616;
+}
+footer .main-footer .about-us {
+  padding: 40px 30px;
+}
+footer .main-footer .about-us h2 {
+  color: #ffc61a;
+  padding: 10px 0px;
+}
+footer .main-footer .about-us p {
+  color: #fff;
+  line-height: 1.5;
+}
+footer .main-footer .explore h2 {
+  color: #ffc61a;
+  padding: 50px 0px 0px 0px;
+}
+footer .main-footer .explore ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+  flex-direction: column;
+}
+footer .main-footer .explore li {
+  list-style: none;
+  color: #fff;
+  border-bottom: 2px dotted #d3d3d3;
+  padding: 20px 0px;
+}
+footer .main-footer .explore li i {
+  color: #ffc61a;
+  font-size: 20px;
+}
+footer .main-footer .explore-2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 77.5px 10px;
+  flex-direction: column;
+}
+footer .main-footer .explore-2 li {
+  list-style: none;
+  color: #fff;
+  border-bottom: 2px dotted #d3d3d3;
+  padding: 20px 0px;
+}
+footer .main-footer .explore-2 li i {
+  color: #ffc61a;
+  font-size: 20px;
+}
+footer .main-footer .contact-us {
+  padding: 40px 30px;
+}
+footer .main-footer .contact-us h2 {
+  color: #ffc61a;
+  padding: 10px 0px 20px;
+}
+footer .main-footer .contact-us p {
+  color: #fff;
+}
+footer .main-footer .contact-us p span {
+  color: #fff;
+  font-weight: bold;
+}
+footer .end {
+  background-color: #000;
+  height: 100px;
+  overflow: hidden;
+}
+footer .end p {
+  display: flex;
+  margin-top: 45px;
+  justify-content: left;
+  color: #fff;
+  letter-spacing: 2px;
+}
+footer .end p a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #ffc61a;
+}
+footer .end .right-car {
+  display: flex;
+  justify-content: flex-end;
+}
+footer .end .right-car .car-image {
+  display: block;
+}
+footer .end .right-car .car-image img {
+  margin: 65px 0px;
+  transition: all 2s ease;
+}
+footer .end .right-car .car-image img:hover {
+  margin: -20px 0px;
+}/*# sourceMappingURL=home.css.map */

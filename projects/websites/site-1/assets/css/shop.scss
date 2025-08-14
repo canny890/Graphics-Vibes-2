@@ -1,0 +1,147 @@
+.page-heading {
+    background-image: url(../images/page-heading-bg.jpg);
+    border-radius: 0px 0px 150px 150px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px 100px 0px;
+    text-align: center;
+    h3 {
+        font-size: 48px;
+        text-transform: uppercase;
+        color: #fff;
+        margin-top: 20px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    span {
+        display: inline-block;
+        font-size: 16px;
+        color: #fff;
+        a {
+            color: #fff;
+        }
+    }
+}
+.shop-trending{
+    margin-top: 120px;
+    ul.trending-filter {
+        list-style: none;
+        text-align: center;
+        margin-bottom: 70px;
+        li {
+            display: inline-block;
+            margin: 5px 8px;
+            a {
+                display: inline-block;
+                text-align: center;
+                font-size: 15px;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #1e1e1e;
+                background-color: #eee;
+                padding: 8px 20px;
+                border-radius: 25px;
+                transition: all .3s;
+            }
+            a.is_active {
+                background-color: #ee626b;
+                color: #fff;
+            }
+            a:hover{
+                background-color: #ee626b;
+                color: #fff;
+            }
+        }
+    }
+    .item {
+        background-color: #eeeeee;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+        margin-bottom: 30px;
+        margin-left: 12px;
+        margin-right: 12px;
+        .thumb {
+            position: relative;
+            border-radius: 25px;
+            overflow: hidden;
+        }
+        span.price {
+            text-align: right;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            border-radius: 10px;
+            background-color: #008af8;
+            font-size: 17px;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #fff;
+            padding: 8px 15px 6px 15px;
+            em {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                text-decoration: line-through;
+                display: block;
+            }
+        }
+        .down-content {
+            padding: 25px;
+            a {
+                position: absolute;
+                display: inline-block;
+                text-align: center;
+                line-height: 40px;
+                width: 40px;
+                height: 40px;
+                background-color: #ee626b;
+                color: #fff;
+                border-radius: 50%;
+                right: 25px;
+                bottom: 25px;
+                transition: all .3s;
+            }
+            &:hover{
+                a{
+                    background-color: #008af8;
+                }
+                h4{
+                    color: #008af8;
+                }
+            }
+        }
+    }
+    .pagination{
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        li {
+            display: inline-block;
+            margin: 0px 5px;
+            a {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                background-color: #eee;
+                color: #1e1e1e;
+                font-size: 15px;
+                font-weight: 600;
+                border-radius: 50%;
+                transition: all .3s;
+            }
+            a.is_active {
+                background-color: #0071f8;
+                color: #fff;
+            }
+            a:hover{
+                color: #fff;
+                background-color: #008af8;
+            }
+        }
+    }
+}

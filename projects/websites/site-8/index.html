@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/ico" href="icon.png">
+	<title>
+		PakShop
+	</title>
+	<style type="text/css">
+		*{
+			scroll-behavior: smooth;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: sans-serif;
+		}
+		.header{
+			background: lightgrey;
+			display: flex;
+			justify-content: space-between;
+			padding: 20px 50px;
+		}
+		.menu{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 20px 50px;
+		}
+		.menu a{
+			color: #ed4136;
+			text-decoration: none;
+			font-family: sans-serif;
+			font-size: 18px;
+			padding: 20px;
+			font-weight: bold;
+		}
+		.about{
+			padding: 100px 0px;
+		}
+		.about img{
+			margin: 20px;
+		}
+		.products{
+			padding: 100px 0px;
+		}
+		.products img{
+			margin: 20px;
+			box-shadow: 5px 5px 5px -5px rgb(0 0 0 / 20%);
+			border: solid #fff 10px;
+		}
+		.blog{
+			background: #d5cfd1;
+			padding: 100px 0px;
+		}
+		.blog input{
+			width: 40%;
+			padding: 20px;
+			border-radius: 30px;
+			outline: none;
+			border: none;
+		}
+		.contact{
+			background: #d5cfd1;
+			padding: 50px 200px;
+		}
+		.contact-sec{
+			margin-top: 50px;
+			display: flex;
+			justify-content: space-between;
+		}
+		.contact-col{
+			flex-basis: 48%;
+			margin-bottom: 30px;
+		}
+		.contact input,textarea{
+			width: 100%;
+			padding: 20px;
+			border-radius: 10px;
+			outline: none;
+			border: none;
+		}
+		.contact button{
+			border: none;
+			background: #ed4136;
+			color: white;
+			padding: 10px 20px;
+			border-radius: 10px;
+		}
+		.footer{
+			background: #222;
+			padding: 10px;
+			font-family: sans-serif;
+			text-align: center;
+			color: white;
+		}
+		.footer a{
+			text-decoration: none;
+			color: #ed4136;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<p>Phone: +92 345 2525648</p>
+		<p>Email: abdulwahiddoff@gmail.com</p>
+	</div>
+	<div class="menu">
+		<img src="logo.png" width="100">
+		<div>
+			<a href="index.html">HOME</a>
+			<a href="about.html">ABOUT US</a>
+			<a href="newarrival.html">ARRIVALS</a>
+			<a href="products.html">PRODUCTS</a>
+			<a href="blog.html">BLOG</a>
+			<a href="contact.html">CONTACT</a> 
+		</div>
+	</div>
+	<img src="slider.jpg" width="100%">
+	<div class="about">
+		<center><font size="6"><h2>Why Shop With Us</h2></font>
+		<br><br>
+		<img src="about1.jpg">
+		<img src="about2.jpg">
+		<img src="about3.jpg"></center>
+	</div>
+	<img src="newarrival.jpg" width="100%">
+	<div class="products">
+		<center><font size="6"><h2>Our Products</h2></font>
+		<br><br>
+		<img src="product1.jpg">
+		<img src="product2.jpg">
+		<img src="product3.jpg"><br>
+		<img src="product4.jpg">
+		<img src="product5.jpg">
+		<img src="product6.jpg"><br>
+		<img src="product7.jpg">
+		<img src="product8.jpg">
+		<img src="product9.jpg"><br>
+		<img src="product10.jpg">
+		<img src="product11.jpg">
+		<img src="product12.jpg"><br>
+	</center>
+	</div>
+	<div class="blog">
+		<center><font size="6"><h2>Subscribe To Get Discount Offers</h2></font>
+		<tt><p>Subscribe us to get the latest news about new arrivals and get discount offers</p></tt>
+		<br><br>
+		<input type="email" placeholder="Enter Your Email" name="email"></center>
+	</div>
+	<video autoplay="" muted="" loop="" width="100%">
+		<source src="brand.mp4" type="video/mp4">
+	</video>
+	<div class="contact">
+		<center><font size="6"><h2>Contact Us</h2></font></center>
+		<br><br>
+		<div class="contact-sec">
+			<div class="contact-col">
+				<font face="arial">
+					<b>ADDRESS:</b> AL Wahab Residency Block 1, Tara Chand Road, Keamari Karachi, Pakistan. <br><br><br><br>
+					<b>TELEPHONE:</b> +92 345 2525648 <br><br><br><br>
+					<b>EMAIL:</b> abdulwahiddoff@gmail.com
+				</font>
+			</div>
+			<div class="contact-col">
+				<form>
+					<input type="text" placeholder="Enter Your Name" name="name"><br><br>
+					<input type="email" placeholder="Enter Your Email" name="email"><br><br>
+					<input type="text" placeholder="Enter Your Subject" name="subject"><br><br>
+					<textarea cols="20" rows="10" placeholder="Your Message"></textarea><br><br>
+					<button type="submit">Send Message</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>© 2022 All Rights Reserved By <a href="https://abdulwahidact.000webhostapp.com/" target="blank">Abdul Wahid</a></p>
+	</div>
+</body>
+</html>

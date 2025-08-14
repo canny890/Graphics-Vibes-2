@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    .col-1{
+        width: 8.33%;
+        margin: 0 auto;
+    }
+    .col-2{
+        width: 16.66%;
+        margin: 0 auto;
+    }
+    .col-3{
+        width: 25%;
+        margin: 0 auto;
+    }
+    .col-4{
+        width: 33.33%;
+        margin: 0 auto;
+    }
+    .col-5{
+        width: 41.66%;
+        margin: 0 auto;
+    }
+    .col-6{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .col-7{
+        width: 58.33%;
+        margin: 0 auto;
+    }
+    .col-8{
+        width: 66.66%;
+        margin: 0 auto;
+    }
+    .col-9{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .col-10{
+        width: 83.33%;
+        margin: 0 auto;
+    }
+    .col-11{
+        width: 91.66%;
+        margin: 0 auto;
+    }
+    .col-12{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+header{
+        #hero{
+            background: url(../images/back.jpg);
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+        .menu{
+            align-items: center;
+            justify-content: center;
+            .menu-logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+                img{
+                    width: 80px;
+                    padding: 20px 0px;
+                }
+            }
+            .menu-btn{
+                display: flex;
+                justify-content: center;
+                ul{
+                display: flex;
+                    li{
+                        list-style: none;
+                        padding: 20px;
+                        a{
+                            color: #ffff00;
+                            text-decoration: none;
+                            transition: all .40s;
+                            padding: 10px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            font-family: sans-serif;
+                            &:hover{
+                                color: #fff;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

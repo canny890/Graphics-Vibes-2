@@ -1,0 +1,298 @@
+section .hero {
+  background: url(../images/hero\ back.webp);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+section .main-blog {
+  text-align: center;
+}
+section .main-blog .blog-heading {
+  padding: 30px 0px 30px;
+}
+section .main-blog .blog-heading h2 {
+  font-size: 48px;
+  font-family: "Arial Narrow";
+  margin: 10px 0px 0px;
+  color: #ff0000;
+}
+section .main-blog .blog-heading p {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+section .main-blog .blog-content {
+  margin: 0px 60px 0px;
+}
+section .main-blog .blog-content .blog-img img {
+  width: 100px;
+  margin-bottom: 5px;
+}
+section .main-blog .blog-content .blog-para {
+  padding: 0px 40px 50px;
+}
+section .main-blog .blog-content .blog-para h3 {
+  font-size: x-large;
+  margin-bottom: 10px;
+  font-family: Arial;
+}
+section .main-blog .blog-content .blog-para p {
+  line-height: 1.3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+section .advert {
+  background: url(../images/plants-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+section .advert .advert-content {
+  padding: 80px 0px 20px;
+  text-align: left;
+  color: #fff;
+}
+section .advert .advert-content h2 {
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+section .advert .advert-content p {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: cursive;
+}
+section .advert .stamp-section {
+  display: flex;
+}
+section .advert .stamp-section .stamp-img {
+  margin-top: 10px;
+}
+section .advert .stamp-section .stamp-img img {
+  width: 100px;
+}
+section .advert .stamp-text {
+  margin-top: 20px;
+}
+section .advert .stamp-text p {
+  font-family: cursive;
+}
+section .side-img {
+  margin-left: 100px;
+}
+section .side-img img {
+  width: 90%;
+}
+
+section .specials {
+  text-align: center;
+  background: #ddd;
+  padding: 20px;
+}
+section .specials .special-heading {
+  line-height: 1.5;
+}
+section .specials .special-heading h2 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 38px;
+}
+section .specials .special-heading h4 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+section .specials .special-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+section .specials .special-items .box-1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0 10px;
+  box-shadow: #888 0px 5px;
+}
+section .specials .special-items .box-1 .item-img img {
+  width: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+section .specials .special-items .item-name {
+  margin: 25px 10px;
+}
+section .specials .special-items .item-name h4 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .specials .para {
+  margin: 10px 150px;
+  line-height: 1.5;
+  text-align: center;
+}
+section .specials .para p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+section .specials .para hr {
+  width: 50%;
+  margin: 10px auto;
+}
+section .specials .para h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+section .specials .para h4 span {
+  color: green;
+}
+
+section .services {
+  background: green;
+  color: #fff;
+}
+section .services .our-services {
+  padding: 50px;
+}
+section .services .our-services .img-with-text {
+  display: flex;
+  margin: 10px 0px 0px 0;
+}
+section .services .our-services .img-with-text img {
+  width: 50px;
+  margin-left: -10px;
+  padding: 0;
+}
+section .services .our-services .img-with-text h3 {
+  padding: 15px 0px;
+}
+section .services .our-services .service-detail {
+  margin: 10px 0px 0px 0px;
+}
+section .services .our-services .service-detail p {
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+section .proved-to-be-the-best {
+  text-align: center;
+  margin: 30px 0px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+section .proved-to-be-the-best .proved-heading {
+  color: #666;
+}
+section .proved-to-be-the-best .proved-heading h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+section .proved-to-be-the-best .proved-heading p {
+  font-size: 12px;
+}
+section .proved-to-be-the-best .proved-cards .card .card-img img {
+  width: 120px;
+}
+section .proved-to-be-the-best .proved-cards .card .card-detail {
+  margin: 10px 30px;
+}
+section .proved-to-be-the-best .proved-cards .card .card-detail h4 {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+section .proved-to-be-the-best .proved-cards .card .card-detail p {
+  font-size: 10px;
+  font-family: cursive;
+}
+
+section .routine {
+  background: url(../images/background-2.jpg);
+  background-size: cover;
+  color: #fff;
+  height: 400px;
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+section .routine .routine-detail {
+  line-height: 2rem;
+  margin: 50px 0px;
+}
+section .routine .routine-detail h1 {
+  font-weight: 500;
+}
+section .routine .routine-detail p {
+  font-family: 13px;
+  font-weight: lighter;
+}
+section .routine .routine-detail video {
+  border: 5px solid #fff;
+}
+section .routine .pricing-order-btns {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 70px;
+}
+section .routine .pricing-order-btns button {
+  padding: 10px;
+  width: 500px;
+  background-color: darkgreen;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+section .routine .pricing-order-btns button a {
+  text-decoration: none;
+  padding: 15px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+section .routine .pricing-order-btns button:hover {
+  background: #ff0000;
+}
+section .routine .pricing-order-btns button:nth-child(2) {
+  padding: 5px;
+  color: #fff;
+  background: #666;
+  font-family: sans-serif;
+  border: none;
+  width: auto;
+  height: 30px;
+  border-radius: 50%;
+}
+section .routine .pricing-order-btns button:nth-child(3) {
+  background-color: #ff0000;
+  margin-right: 10px;
+}
+section .routine .pricing-order-btns button:nth-child(3):hover {
+  background: darkgreen;
+}
+
+section .other-brands {
+  margin: 40px 0px;
+}
+section .other-brands .brands .brand-img {
+  max-width: 80px;
+  vertical-align: center;
+}
+section .other-brands .brands .brand-img img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+section .location {
+  max-width: 1370px;
+  margin: 0 auto;
+}/*# sourceMappingURL=home.css.map */

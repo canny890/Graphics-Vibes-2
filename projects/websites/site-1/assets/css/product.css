@@ -1,0 +1,150 @@
+.single-product {
+  margin-top: 120px;
+}
+.single-product .left-image {
+  margin-right: 80px;
+}
+.single-product .left-image img {
+  border-radius: 25px;
+}
+.single-product h4 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+.single-product span.price {
+  font-size: 27px;
+  font-weight: 700;
+  color: #0071f8;
+}
+.single-product span.price em {
+  font-style: normal;
+  color: #c8c8c8;
+  font-size: 17px;
+  text-decoration: line-through;
+  font-weight: 500;
+  margin-right: 5px;
+}
+.single-product p {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.single-product form {
+  display: inline;
+}
+.single-product form input {
+  width: 80px;
+  height: 50px;
+  background-color: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  border-radius: 25px;
+  text-align: center;
+  float: left;
+  margin-right: 15px;
+}
+.single-product form button {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ee626b;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0px 25px;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+.single-product form button:hover {
+  background-color: #0071f8;
+}
+.single-product ul {
+  margin-top: 60px;
+}
+.single-product ul li {
+  display: block;
+  margin: 20px 0px;
+  font-size: 14px;
+  color: #0071f8;
+}
+.single-product ul li span {
+  width: 120px;
+  display: inline-block;
+  color: #aaa;
+}
+.single-product .sep {
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+  margin: 80px 0px;
+}
+
+.more-info .tabs-content {
+  background-color: #f7f7f7;
+  border-radius: 25px;
+  padding: 60px;
+  transition: all 0.3s;
+}
+
+.related-games {
+  margin-top: 120px;
+}
+.related-games .section-heading {
+  margin-bottom: 70px;
+  margin-left: 13px;
+}
+.related-games .section-heading h6 {
+  color: #ee626b;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.related-games .section-heading h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+  line-height: 44px;
+}
+.related-games .main-button {
+  text-align: right;
+  margin-top: 32px;
+  margin-right: 13px;
+}
+.related-games .main-button a {
+  display: inline-block;
+  background-color: #ee626b;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 30px;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+.related-games .main-button a:hover {
+  background-color: #0071f8;
+}
+.related-games .item {
+  background-color: #0071f8;
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.related-games .item h4 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  padding: 22px;
+  margin-bottom: 0px;
+}
+.related-games .item .thumb {
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+}/*# sourceMappingURL=product.css.map */

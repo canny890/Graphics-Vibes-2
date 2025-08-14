@@ -1,0 +1,236 @@
+.categories {
+  text-align: center;
+  margin-top: 50px;
+}
+.categories .section-heading {
+  text-align: center;
+}
+.categories .section-heading h1 {
+  font-family: sans-serif;
+  font-size: 35px;
+  margin: 0;
+  text-transform: capitalize;
+}
+.categories .section-heading p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.categories .card {
+  margin-left: 20px;
+  width: 350px;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 25px;
+  position: relative;
+}
+.categories .card .card-img img {
+  width: 350px;
+  height: 150px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.categories .card .icon {
+  position: absolute;
+  top: -25px;
+  left: 37%;
+  background-color: #004d9b;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categories .card .icon a img {
+  width: 30px;
+}
+@media (max-width: 767px) {
+  .categories .card {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .categories .card .card-img img {
+    width: 100%;
+  }
+}
+
+.feature {
+  margin-top: 50px;
+}
+.feature .section-heading {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #000;
+  margin-bottom: 20px;
+  position: relative;
+}
+.feature .section-heading img {
+  position: absolute;
+  top: -20px;
+  left: 48%;
+  background-color: #fff;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+}
+.feature .section-heading h1 {
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 35px;
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.feature .section-heading h1 span {
+  font-weight: 700;
+}
+.feature .section-heading p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.feature .row .col-12 .card {
+  display: flex;
+  padding: 25px;
+}
+.feature .row .col-12 .card .card-img img {
+  width: 320px;
+}
+.feature .row .col-12 .card .card-detail h2 {
+  font-family: sans-serif;
+}
+.feature .row .col-12 .card .card-detail p {
+  font-family: sans-serif;
+}
+.feature .row .col-12 .card .card-detail button {
+  background: transparent;
+  color: #000;
+  padding: 15px;
+  border: 1px solid #004d9b;
+  width: 120px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.feature .row .col-12 .card .card-detail button:hover {
+  background-color: #004d9b;
+  transition: 0.42s;
+  color: #fff;
+  cursor: pointer;
+}
+.feature .row .col-12:nth-child(1) {
+  border-bottom: 1px solid #004d9b;
+}
+@media (max-width: 767px) {
+  .feature .card {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .feature .card .card-detail {
+    text-align: center;
+  }
+}
+
+.letest-project .section-heading {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #000;
+  position: relative;
+}
+.letest-project .section-heading img {
+  position: absolute;
+  top: -20px;
+  left: 48%;
+  background-color: #fff;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+}
+.letest-project .section-heading h1 {
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 35px;
+  margin: 0;
+  text-transform: capitalize;
+}
+.letest-project .section-heading h1 span {
+  font-weight: 800;
+}
+.letest-project .section-heading p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.letest-project .card {
+  margin-left: 20px;
+  width: 250px;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.letest-project .card .card-img img {
+  width: 248px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.letest-project .card .card-detail {
+  padding: 8px;
+}
+.letest-project .card .card-detail h4 {
+  margin: 0;
+  font-family: sans-serif;
+}
+.letest-project .card .card-detail p {
+  font-family: sans-serif;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .letest-project .card {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .letest-project .card .card-img img {
+    width: 100%;
+  }
+  .letest-project .section-heading h1 {
+    font-size: 25px;
+  }
+  .letest-project .section-heading img {
+    left: 40%;
+  }
+}
+
+.testimonial .card {
+  text-align: center;
+}
+.testimonial .card .section-heading {
+  margin-top: 25px;
+}
+.testimonial .card .section-heading h1 {
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 35px;
+  margin: 0;
+  text-transform: capitalize;
+}
+.testimonial .card .section-heading h1 span {
+  font-weight: 800;
+}
+.testimonial .card .para {
+  border-bottom: 1px solid #000;
+  border-width: 40%;
+}
+.testimonial .card .para p {
+  font-family: sans-serif;
+}
+.testimonial .card .company p {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.testimonial .card .company p span {
+  font-weight: 800;
+}/*# sourceMappingURL=style.css.map */

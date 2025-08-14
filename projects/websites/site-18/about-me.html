@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/about-me.css">
+    <title>About-Me</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="logo">
+                        <a href="index.html"><h1>ADEEL <span>SHAH</span></h1></a>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div id="menu">
+                        <ul>
+                            <li><a href="#slider">Home</a></li>
+                            <li><a href="#about-me">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="https://web.facebook.com/adeeljadoon89/" target="_blank"><i class='bx bxl-facebook-circle'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram-alt'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-tiktok'></i></a></li>
+                        </ul>
+                    </div>
+                    <input type="checkbox" id="check" name="" value="">
+				    <label for="check" id="checkbtn"><i class='bx bx-menu' onclick="toggleMenu()"></i></label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- <=============================Slider-Area===========================> -->
+    <section id="slider">
+        <div class="container">
+            <div class="content">
+                <h1>About / Services</h1>
+                <p>Hi! my name is Adeel Shah. I'm a Web Developer & most welcome to my site</p>
+                <button class="button-64" role="button" onclick="document.location='#contact'"><span class="text">Hire Me</span></button>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- <=============================About-Area===========================> -->
+     <section id="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="image">
+                        <img src="assets/images/about.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="about-content">
+                        <h1>About Me</h1>
+                        <h3>Developer & Designer</h3>
+                        <p>I’m front-end web-developer. I can provide clean code & pixels perfect design. I also make the website more & more interactive with web animations. I can provide clean code and pixels perfect design. I also make the website more & more interactive with the web animations. A responsive design makes your website accessible to all users, regardless of their device.</p>
+                        <button class="button-64" role="button" onclick="document.location='#contact'"><span class="text">Let's Talk</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services">
+        <div class="container">
+            <div class="services-layout">
+                <div class="section-heading">
+                    <h1>Our Services</h1>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <h5>HTML</h5>
+                            <div class="para">
+                                <p>Every website should be build with two primary goals. Firstly, its needs to work all devices. Secondly, it need fast as possible</p>
+                                <p style="text-align: center;">
+                                <a href="#" class="button">See Projects</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="card">
+                            <h5>CSS/SCSS</h5>
+                            <div class="para">
+                                <p>Every website should be build with two primary goals. Firstly, its needs to work all devices. Secondly, it need fast as possible</p>
+                                <p style="text-align: center;">
+                                <a href="#" class="button">See Projects</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="card">
+                            <h5>Data Entry</h5>
+                            <div class="para">
+                                <p>Every website should be build with two primary goals. Firstly, its needs to work all devices. Secondly, it need fast as possible</p>
+                                <p style="text-align: center;">
+                                <a href="#" class="button">See Projects</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="button-64" role="button"><span class="text">View More Services</span></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- <=============================footer-Area===========================> -->
+
+    <footer class="footer">
+        <div class="container">
+          <div class="menu">
+            <a href="https://web.facebook.com/adeeljadoon89/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+          </div>
+          
+          <div class="menu">
+            <ul>
+              <li><a href="#slider">Home</a></li>
+              <li><a href="#about-me">About</a></li>
+              <li><a href="#portfolio">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="end">
+              <p>Copyright © 2024 - All rights reserved || Designed By: <a href="index.html">ADEEL SHAH</a></p> 
+          </div>
+        </div>
+      </footer>
+  
+  
+      <!-- <=============================js-Area===========================> -->
+      <script src="https://code.jquery.com/jquery-3.7.1.js"integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="crossorigin="anonymous"></script>
+      <script>
+          $(window).scroll(function(){
+              if($(window).scrollTop()){
+                  $("header").addClass("black")
+              }
+              else{
+                  $("header").removeClass("black")
+              }
+          })
+      </script>
+      <script>
+          let menu = document.getElementById("menu")
+          menu .style .maxHeight="0px"
+  
+          function toggleMenu(){
+              if(menu .style .maxHeight=="0px")
+          {
+              menu .style .maxHeight="500px"
+          }
+          else{
+              menu .style .maxHeight="0px"
+          }
+          }
+      </script>
+</body>
+</html>

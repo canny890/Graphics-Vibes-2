@@ -1,0 +1,35 @@
+@media (max-width: 858px) {
+  .container {
+    max-width: 98%;
+  }
+  .header h1 {
+    font-size: 25px;
+    margin: 15px 10px !important;
+  }
+  .header #menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    width: 100%;
+    overflow: hidden;
+  }
+  .header #menu ul {
+    flex-direction: column;
+    padding: 0;
+  }
+  .header #menu ul li {
+    margin: 12px 0px;
+  }
+  .header #menu ul li a {
+    font-size: 18px;
+  }
+  .header #checkbtn {
+    display: block;
+    color: #fff;
+    font-size: 30px;
+  }
+  #portfolio .button-64 {
+    min-width: 225px !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */

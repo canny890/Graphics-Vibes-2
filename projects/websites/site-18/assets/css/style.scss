@@ -1,0 +1,268 @@
+// <!-- <=============================Slider-Area===========================> -->
+#slider{
+    background-image: url(../images/back.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        font-family: sans-serif;
+        margin-top: 150px;
+        h1{
+            font-size: 60px;
+            margin: 0;
+        }
+        p{
+            font-size: 16px;
+        }
+        .button-64 {
+            align-items: center;
+            background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+            border: 0;
+            border-radius: 8px;
+            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            display: flex;
+            font-family: Phantomsans, sans-serif;
+            font-size: 20px;
+            justify-content: center;
+            line-height: 1em;
+            max-width: 100%;
+            min-width: 140px;
+            padding: 3px;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            cursor: pointer;
+          }
+          .button-64:active,.button-64:hover {
+            outline: 0;
+        }
+        .button-64 span {
+            background-color: rgb(5, 6, 45);
+            padding: 16px 24px;
+            border-radius: 6px;
+            width: 100%;
+            height: 100%;
+            transition: 300ms;
+        }
+        .button-64:hover span {
+            background: none;
+        }
+    }
+}
+
+
+
+// <!-- <=============================About-Area===========================> -->
+
+#about-me{
+    // margin-top: 25px;
+    background-color: #212529;
+    padding: 45px;
+    .image{
+        margin-left: 13px;
+        img{
+            border-radius: 20px;
+            width: 350px;
+        }
+    }
+    .about-content{
+        margin-right: 13px;
+        h1{
+            color: white;
+            font-size: 75px;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+            margin-top: 0;
+            font-family: sans-serif;
+        }
+        h3{
+            color: white;
+            letter-spacing: 2px;
+            font-size: 22px;
+            margin-bottom: 25px;
+            text-transform: capitalize;
+            font-family: sans-serif;
+        }
+        p{
+            color: #fff;
+            letter-spacing: 1px;
+            line-height: 28px;
+            font-size: 18px;
+            margin-bottom: 45px;
+            font-family: sans-serif;
+        }
+        .button-64 {
+            align-items: center;
+            background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+            border: 0;
+            border-radius: 8px;
+            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            display: flex;
+            font-family: Phantomsans, sans-serif;
+            font-size: 20px;
+            justify-content: center;
+            line-height: 1em;
+            max-width: 100%;
+            min-width: 140px;
+            padding: 3px;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            cursor: pointer;
+          }
+          .button-64:active,.button-64:hover {
+            outline: 0;
+        }
+        .button-64 span {
+            background-color: rgb(5, 6, 45);
+            padding: 16px 24px;
+            border-radius: 6px;
+            width: 100%;
+            height: 100%;
+            transition: 300ms;
+        }
+        .button-64:hover span {
+            background: none;
+        }
+    }
+}
+
+
+
+// <!-- <=============================Portfolio-Area===========================> -->
+
+#portfolio{
+    padding: 10px 0;
+    background: #212529;
+    h2 {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 40px;
+        font-family: sans-serif;
+        font-size: 60px;
+        padding: 0;
+    }
+    .portfolio-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 56px;
+    }
+    .portfolio-item {
+        background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        width: calc(33.333% - 40px);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        font-family: sans-serif;
+        padding: 5px;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            padding: 5px;
+        }
+        
+        h3 {
+            margin: 20px;
+            font-size: 1.5em;
+            color: #fff;
+        }
+        
+        p {
+            margin: 0 20px 20px;
+            font-size: 1em;
+            color: #fff;
+        }
+        .button-64 {
+            align-items: center;
+            background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+            border: 0;
+            border-radius: 30px;
+            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            display: flex;
+            font-family: Phantomsans, sans-serif;
+            font-size: 20px;
+            justify-content: center;
+            line-height: 1em;
+            max-width: 100%;
+            min-width: 305px;
+            padding: 3px;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            cursor: pointer;
+          }
+          .button-64:active,.button-64:hover {
+            outline: 0;
+        }
+        .button-64 span {
+            background-color: rgb(5, 6, 45);
+            padding: 16px 24px;
+            border-radius: 30px;
+            width: 100%;
+            height: 100%;
+            transition: 300ms;
+        }
+        .button-64:hover span {
+            background: none;
+        }
+    }
+    .button-64 {
+        align-items: center;
+        background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+        border: 0;
+        border-radius: 30px;
+        box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        display: flex;
+        font-family: Phantomsans, sans-serif;
+        font-size: 20px;
+        justify-content: center;
+        line-height: 1em;
+        max-width: 100%;
+        min-width: 100%;
+        margin-top: 20px;
+        padding: 3px;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        cursor: pointer;
+      }
+      .button-64:active,.button-64:hover {
+        outline: 0;
+    }
+    .button-64 span {
+        background-color: rgb(5, 6, 45);
+        padding: 16px 24px;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+        transition: 300ms;
+    }
+    .button-64:hover span {
+        background: none;
+    }
+}

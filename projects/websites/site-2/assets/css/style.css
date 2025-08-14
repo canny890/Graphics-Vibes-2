@@ -1,0 +1,239 @@
+.slider {
+  background-image: url(../images/slider.jpg);
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+}
+.slider .content {
+  margin: 25px 0px;
+}
+.slider .content h1 {
+  color: #fff;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 45px;
+}
+.slider .content h1 span {
+  color: #ff0000;
+}
+.slider .content h3 {
+  color: #fff;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.slider .content h4 {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+.slider .content .news-leter form {
+  position: relative;
+}
+.slider .content .news-leter form input[type=text] {
+  position: absolute;
+  width: 384px;
+  padding: 14px 130px 14px 15px;
+  border: 1px solid #ff0000;
+  border-radius: 30px;
+}
+.slider .content .news-leter form input[type=submit] {
+  position: absolute;
+  padding: 10px 30px;
+  top: 5px;
+  left: 260px;
+  background: #ff0000;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.slider .content .news-leter form input[type=submit]:hover {
+  background: transparent;
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}
+
+.about-me {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.about-me .image img {
+  width: 430px;
+  height: auto;
+}
+.about-me .about-content-detail h2 {
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.about-me .about-content-detail h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+.about-me .about-content-detail h5 span {
+  color: #ff0000;
+}
+.about-me .about-content-detail p {
+  color: rgba(255, 204, 255, 0.8);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  font-family: sans-serif;
+}
+.about-me .about-content-detail button {
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 13px 30px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.about-me .about-content-detail button:hover {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  cursor: pointer;
+}
+
+.services {
+  background: #101010;
+  width: 100%;
+  padding: 100px 0px;
+}
+.services .services-layout .section-heading {
+  color: white;
+  font-size: 50px;
+  width: 1130px;
+  margin: 10px auto;
+  text-align: center;
+}
+.services .services-layout .section-heading h1 {
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.services .services-layout .card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.42s;
+  cursor: pointer;
+}
+.services .services-layout .card h5 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+}
+.services .services-layout .card .para p {
+  color: rgba(255, 204, 255, 0.8);
+  font-size: 16px;
+  line-height: 28px;
+  margin: 25px;
+  font-family: sans-serif;
+}
+.services .services-layout .card .para p a {
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 9px 22px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.services .services-layout .card .para p a:hover {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  cursor: pointer;
+}
+.services .services-layout .card:hover {
+  box-shadow: 0px 0px 10px 0px #ff0000;
+  transform: scale(1.01);
+}
+
+.our-projects {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.our-projects .section-heading {
+  color: white;
+  font-size: 50px;
+  width: 1130px;
+  margin: 10px auto;
+  text-align: center;
+}
+.our-projects .section-heading h1 {
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.our-projects .card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #101010;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.42s;
+  cursor: pointer;
+}
+.our-projects .card h5 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+}
+.our-projects .card .para p {
+  color: rgba(255, 204, 255, 0.8);
+  font-size: 16px;
+  line-height: 28px;
+  margin: 25px;
+  font-family: sans-serif;
+}
+.our-projects .card .para p a {
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 9px 22px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.our-projects .card .para p a:hover {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  cursor: pointer;
+}
+.our-projects .card:hover {
+  box-shadow: 0px 0px 10px 0px #ff0000;
+  transform: scale(1.01);
+}/*# sourceMappingURL=style.css.map */

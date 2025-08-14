@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <title>Gaming Site</title>
+</head>
+<body>
+     <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="" style="width: 158px;">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html" >Home</a></li>
+                      <li><a href="our-shop.html" >Our Shop</a></li>
+                      <li><a href="product-detail.html" >Product Details</a></li>
+                      <li><a href="contact.html" class="active">Contact Us</a></li>
+                      <li><a href="#">Sign In</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3>Contact us</h3>
+          <span class="breadcrumb"><a href="index.html">Home</a> > Contact us</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="left-text">
+            <div class="section-heading">
+              <h6>Contact Us</h6>
+              <h2>Say Hello!</h2>
+            </div>
+            <p>LUGX Gaming Template is based on the latest Bootstrap 5 CSS framework. This template is provided by TemplateMo and it is suitable for your gaming shop ecommerce websites. Feel free to use this for any purpose. Thank you.</p>
+            <ul>
+              <li><span>Address</span> Gulshan Sikandarabad Keamari Karachi.</li>
+              <li><span>Phone</span> +92 313 2104258</li>
+              <li><span>Email</span> mak8902009@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="right-text">
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1020.8116258905225!2d66.97783658856623!3d24.823855575636387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3161466ef2a51%3A0x4a0f2a9c25a9e2db!2sJackson%20Market!5e1!3m2!1sen!2s!4v1729273789428!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form id="contact-form" action="" method="post">
+              <div class="row">
+                <div class="col-lg-6">
+                  <fieldset>
+                    <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                  </fieldset>
+                </div>
+                <div class="col-lg-6">
+                  <fieldset>
+                    <input type="surname" name="surname" id="surname" placeholder="Your Surname..." autocomplete="on" required>
+                  </fieldset>
+                </div>
+                <div class="col-lg-6">
+                  <fieldset>
+                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-6">
+                  <fieldset>
+                    <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on" >
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2028 LUGX Gaming Company. All rights reserved. &nbsp;&nbsp; <a rel="nofollow" href="https://templatemo.com" target="_blank">Design: ADEEL SHAH</a></p>
+      </div>
+    </div>
+  </footer>
+<script src="assets/js/style.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script>
+  $(window).scroll(function(){
+      if($(window).scrollTop()){
+          $(".header-area").addClass("background-header")
+      }
+      else{
+          $(".header-area").removeClass("background-header")
+      }
+  })
+</script>
+</body>
+</html>
